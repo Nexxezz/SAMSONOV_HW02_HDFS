@@ -2,7 +2,7 @@ HOMEWORK 2
 #####################################################################################################################################################################
 TASK 1
 Steps:
-1. Download Hortonworks HDP image
+1. Download Hortonworks HDP image(run corrected hdp script with bash docker-deploy-hdp30.sh command)	
 2. Run Docker container via docker run -it IMAGE_NAME
 3. copy dataset from localhost to HDP container via Ambari UI or via CLI command hdfs dfs -put /PATH/TO/DATASET/ /PATH/IN/HDFS/
 4. Check that dataset is in HDFS via hdfs dfs -ls /PATH/TO/DATASET/ command and Ambari View(screenshot 1, 2)
